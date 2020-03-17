@@ -4,13 +4,13 @@ $numbers = range(1, 100);
 
 foreach ($numbers as $key) {
 	if ($key % 3 == 0 && $key % 5 == 0) {
-		echo "FizzBuzz" . "<br>"; 
+		echo "<br>" . "FizzBuzz" . "<br>"; 
 	} elseif ($key % 3 == 0) {
-		echo "Fizz". "<br>";
+		echo "<br>" . "Fizz". "<br>";
 	} elseif ($key % 5 == 0) {
-		echo "Buzz". "<br>";
+		echo "<br>" . "Buzz". "<br>";
 	} else {
-		echo "$key". "<br>";
+		echo "<br>" . "$key". "<br>";
 	}
 
 }
